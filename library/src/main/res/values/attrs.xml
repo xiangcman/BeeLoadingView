@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BeeLoadingView">
+        <attr name="animate" format="enum">
+            <enum name="colorFul" value="1" />
+            <enum name="rotate" value="2" />
+            <enum name="colorArotate" value="3" />
+        </attr>
+        <!--每一个item的size大小-->
+        <attr name="load_size" format="float" />
+    </declare-styleable>
+</resources>
